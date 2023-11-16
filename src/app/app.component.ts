@@ -1,6 +1,6 @@
 import {Component, ElementRef, ViewChild} from '@angular/core';
 import {MatDialog} from "@angular/material/dialog";
-import {SuccessComponent} from "./view/success/success.component";
+// import {SuccessComponent} from "./view/success/success.component";
 
 @Component({
   selector: 'app-root',
@@ -332,11 +332,11 @@ export class AppComponent {
 
   }
   openDialog() {
-    return  this.dialog.open(SuccessComponent, {
-      width: '350px',
-      height: '400px',
+    // return  this.dialog.open(SuccessComponent, {
+    //   width: '350px',
+    //   height: '400px',
 
-    });
+    // });
 
   }
   dragOver(ev: any){
