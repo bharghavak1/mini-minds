@@ -66,7 +66,7 @@
 }
 
 .container-left{
-  width: 45%;
+  width: 45vw;
   max-width: 650px;
   display: flex;
   flex-wrap: wrap;
@@ -76,7 +76,7 @@
 }
 
 .container-right{
-  width: 65%;
+  width: 55vw;
   max-width: 650px;
   display: flex;
   // flex-wrap: wrap;
@@ -88,11 +88,12 @@
 .container-main{
   display: flex;
   justify-content: center;
+  width: 100vw;
 }
 
 .selectedImg{
-  max-height: 80%;
-  max-width: 80%;
+  max-height: 70%;
+  max-width: 70%;
   object-fit: contain;
 }
 
@@ -114,6 +115,8 @@
 .imgs{
   max-height: 70%;
   max-width: 70%;
+  outline: none;
+  background-color: none;
 }
 
 .hidden{
@@ -210,6 +213,7 @@
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
+  margin-top: 7vh;
 }
 
 .container-data-right{
@@ -230,6 +234,9 @@
   height: 200px;
   //border-radius: 50%;
   //border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .second{
@@ -254,8 +261,8 @@
 }
 
 .secondContainer{
-  width: 300px;
-  height: 300px;
+  width: 270px;
+  height: 270px;
   //border-radius: 50%;
   //border: 1px solid black;
   margin: 10px;
@@ -271,6 +278,7 @@
   margin: 10px 0;
   color: #263238;
   justify-content: center;
+  text-align: center;
 }
 
 .milk{
@@ -279,9 +287,11 @@
 }
 
 .dataImgs{
-  width:200px;
-  height: 200px;
+  width: 180px; 
+  height: 180px;
   object-fit: contain;
+  outline: none;
+  background-color: none;
 }
 
 @keyframes shake {
@@ -409,35 +419,45 @@
   }
 
   .container-left{
-    width: 40%;
+    width: 40vw;
   }
 
   .container-right{
-    width: 60%;
+    width: 60vw;
   }
 
   .selectedImg{
-    max-width: 75%;
-    max-height: 75%;
+    max-width: 70%;
+    max-height: 70%;
+  }
+
+  .dataImgs{
+    width: 165px;
+    height: 165px;
+  }
+
+  .secondContainer{
+    width: 250px;
+    height: 250px;
   }
 }
 
 @media only screen and (max-width: 1024px){
   .selectCir{
-    margin: 20px;
+    margin: 10px 20px;
   }
 
   .imgs{
-    max-width: 75%;
-    max-height: 75%;
+    max-width: 57%;
+    max-height: 57%;
   }
 
   .container-left{
-    width: 45%;
+    width: 45vw;
   }
 
   .container-right{
-    width: 65%;
+    width: 65vw;
   }
 
   .line{
@@ -445,8 +465,8 @@
   }
 
   .selectedImg{
-    max-width: 70%;
-    max-height: 70%;
+    max-width: 57%;
+    max-height: 57%;
   }
 
   .container-data-left{
@@ -459,13 +479,13 @@
   }
 
   .dataImgs{
-    width: 170px;
-    height: 170px;
+    width: 150px;
+    height: 150px;
   }
 
   .secondContainer{
-    width: 260px;
-    height: 260px;
+    width: 220px;
+    height: 220px;
   }
 }
 
@@ -517,12 +537,12 @@
   }
 
   .container-left{
-    width: 80%;
+    width: 80vw;
     min-height: 100px;
   }
 
   .container-right{
-    width: 80%;
+    width: 80vw;
   }
 
   .line{
@@ -532,8 +552,8 @@
   }
 
   .selectedImg{
-    max-width: 60%;
-    max-height: 60%;
+    max-width: 55%;
+    max-height: 55%;
   }
 
   .container-data-main{
@@ -554,25 +574,27 @@
   }
 
   .dataImgs{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
   }
 
   .secondLeft{
     justify-content: center;
     display: flex;
     align-items: center;
+    margin:30px 10px;
   }
 
   .secondRight{
     justify-content: center;
     display: flex;
     align-items: center;
+    margin:30px 10px;
   }
 
   .secondContainer{
-    width: 220px;
-    height: 220px;
+    width: 190px;
+    height: 190px;
   }
 }
 
@@ -612,13 +634,13 @@
   }
 
   .dataImgs{
-    width: 135px;
-    height: 135px;
+    width: 100px;
+    height: 100px;
   }
 
   .secondContainer{
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
   }
 }
 
@@ -656,8 +678,8 @@
   }
 
   .dataImgs{
-    width: 120px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
   }
 
   .secondLeft{
@@ -673,8 +695,8 @@
   }
 
   .secondContainer{
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
   }
 }
 
@@ -708,7 +730,7 @@
   }
 
   .container-right{
-    width: 95%;
+    width: 95vw;
   }
 
   .circle{
@@ -721,8 +743,8 @@
   }
 
   .selectedImg{
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 47%;
+    max-height: 47%;
   }
 
   .first{
@@ -732,8 +754,8 @@
   }
 
   .dataImgs{
-    width: 110px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
   }
 
   .secondLeft{
@@ -749,8 +771,8 @@
   }
 
   .secondContainer{
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
   }
 }
 
@@ -801,8 +823,8 @@
   }
 
   .selectedImg{
-    max-width: 47%;
-    max-height: 47%;
+    max-width: 44%;
+    max-height: 44%;
   }
 
   .selectedCir{
@@ -810,8 +832,8 @@
   }
 
   .dataImgs{
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
   }
 
   .secondLeft{
@@ -827,7 +849,7 @@
   }
 
   .secondContainer{
-    width: 160px;
-    height: 160px;
+    width: 140px;
+    height: 140px;
   }
 }
