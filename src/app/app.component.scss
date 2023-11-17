@@ -92,8 +92,8 @@
 }
 
 .selectedImg{
-  max-height: 70%;
-  max-width: 70%;
+  max-height: 60%;
+  max-width: 60%;
   object-fit: contain;
 }
 
@@ -113,10 +113,11 @@
 }
 
 .imgs{
-  max-height: 70%;
-  max-width: 70%;
-  outline: none;
-  background-color: none;
+  max-height: 60%;
+  max-width: 60%;
+  outline: none !important;
+  background: none !important;
+  border: none !important;
 }
 
 .hidden{
@@ -414,8 +415,8 @@
   }
 
   .imgs{
-    max-width: 70%;
-    max-height: 70%;
+    max-width: 60%;
+    max-height: 60%;
   }
 
   .container-left{
@@ -427,8 +428,8 @@
   }
 
   .selectedImg{
-    max-width: 70%;
-    max-height: 70%;
+    max-width: 60%;
+    max-height: 60%;
   }
 
   .dataImgs{
